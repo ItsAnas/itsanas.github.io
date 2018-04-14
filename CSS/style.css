@@ -1,0 +1,49 @@
+.main-page {
+    padding-top: 170px;
+}
+
+body { padding-top: 50px; }
+@media screen and (max-width: 768px) {
+    body { padding-top: 0px; }
+}
+
+
+
+section {
+    width: 100%;
+    padding: 0 7%;
+    display: table;
+    margin: 0;
+    max-width: none;
+    background-color: #373B44;
+    height: 95vh;    
+  }
+
+  .section—first {
+    height: 90vh;
+    background-color: aqua;
+}
+
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+}
+
+.important-text {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.strong-text {
+    color: #3C3C40;;
+}
+
+.light-text {
+    color: #C2C2C2;
+}
+
+.container-fluid {
+    padding: 0%;
+}
+
