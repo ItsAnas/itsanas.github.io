@@ -33,7 +33,7 @@ section {
     border: 5px solid cornflowerblue;
 }
 
-h1 {
+.big-text {
     font-family: 'Fjalla One', sans-serif;
     font-weight: bolder;
 }
