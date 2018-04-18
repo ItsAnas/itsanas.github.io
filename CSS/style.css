@@ -11,19 +11,30 @@ body { padding-top: 50px; }
 */
 
 
+.btn-circle {
+    width: 60px;
+    height: 60px;
+    padding: 6px 0px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+}
+
+.red-text {
+    color: brown;
+}
 
 section {
     width: 100%;
     padding: 0 7%;
     display: table;
     max-width: none;
-    background-color: #373B44;
     height: 95vh;       
   }
 
   .section—first {
     height: 90vh;
-    background-color: aqua;
     display: table;
 }
 
@@ -32,7 +43,7 @@ section {
     border-radius: 50%;
     width: 300px;
     height: auto;
-    border: 5px solid cornflowerblue;
+    border: 5px solid brown;
 }
 
 .big-text {
