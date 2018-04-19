@@ -1,14 +1,15 @@
 
 
 body { padding-top: 50px; }
-/*
-@media screen and (max-width: 1200px) {
-    body { padding-top: 0px; }
-    .navbar {
-        display: none;
+
+
+@media screen and (max-width: 768px) {
+    h1{
+        font-size:14px;
     }
+
+
 }
-*/
 
 
 .btn-circle {
@@ -34,8 +35,11 @@ section {
   }
 
   .section—first {
-    height: 90vh;
+    width: 100%;
+    padding: 0 7%;
     display: table;
+    max-width: none;
+    height: 90vh;  
 }
 
 
