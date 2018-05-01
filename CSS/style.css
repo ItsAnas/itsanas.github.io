@@ -57,18 +57,21 @@ section {
     height: 90vh;  
 }
 
-
+.shadover:hover {
+  box-shadow: 0 0 20px rgba(33,33,33,.2);
+}
 
 .profile-pic {
     border-radius: 50%;
-    width: 300px;
+    width: 35vh;
     height: auto;
-    border: 5px solid brown;
+    border: 6px solid brown;
 }
 
 .big-text {
     font-family: 'Fjalla One', sans-serif;
     font-weight: bolder;
+    font-size: 10vh;
 }
 
 .important-text {
