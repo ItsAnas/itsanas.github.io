@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
         crossorigin="anonymous">
 
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
 
@@ -90,12 +90,14 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4" style="border: 2px solid red;" align="center">
-                        <img src="Ressources/images/profile-pic.jpg" class="profile-pic">
+                        <img src="Ressources/images/profile-pic.jpg" class="profile-pic img-fluid">
                     </div>
                     <div class="col-lg-8">
-                        <h1 class="display-1 big-text">
-                            Anas El Halouani
-                        </h1>
+                        <div class="container">
+                            <h1 class="display-1 big-text">
+                                Anas El Halouani
+                            </h1>
+                        </div>
                         <p class="lead">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque imperdiet sem fermentum nulla sollicitudin, nec mollis
                             mauris porttitor. Vivamus ut elementum justo.
@@ -156,7 +158,7 @@
 
 
 
-<!-- 
+    <!-- 
     <div class="container animated bounceInRight">
         <div class="timeline">
             <div class="tcontainer tleft">
@@ -207,22 +209,42 @@
     </div>
 
     <div class="container">
-    <div class="card shadover">
-        <div class="card-body">
-          <h4 class="card-title">Titre du boulot</h4>
-          <p class="card-text">Some example text. Some example text.</p>
-          <a href="#" class="card-link">Card link</a>
-          <a href="#" class="card-link">Another link</a>
+        <a data-toggle="collapse" data-target="#job1">
+            <div class="card shadover">
+
+                <div class="card-body">
+                    <h4 class="card-title">Titre du boulot</h4>
+                    <p class="card-text">Some example text. Some example text.</p>
+                    <div id="job1" class="collapse">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut hendrerit, augue vitae ultricies scelerisque, ante magna elementum
+                        neque, et feugiat mauris eros malesuada mi. Mauris sagittis orci at mi malesuada, eget finibus sapien
+                        rhoncus. Donec tristique scelerisque neque eu porta. Integer vitae faucibus nibh. Integer pretium
+                        neque sed vehicula egestas. Sed convallis ligula eu arcu sollicitudin, id eleifend magna lobortis.
+                        Morbi nec vestibulum elit, eget aliquam sem. Vivamus rutrum, nulla id tempor rhoncus, enim turpis
+                        fringilla tellus, et malesuada magna lorem sodales turpis. Pellentesque tristique ac lacus vitae
+                        fermentum. Cras rhoncus ac risus at aliquam. Vestibulum commodo nibh et ante.
+                    </div>
+                </div>
+        </a>
+
         </div>
-      </div>
-      <div class="card shadover">
-        <div class="card-body">
-          <h4 class="card-title">Card title</h4>
-          <p class="card-text">Some example text. Some example text.</p>
-          <a href="#" class="card-link">Card link</a>
-          <a href="#" class="card-link">Another link</a>
-        </div>
-      </div>
+        <a data-toggle="collapse" data-target="#job">
+            <div class="card shadover">
+
+                <div class="card-body">
+                    <h4 class="card-title">Titre du boulot</h4>
+                    <p class="card-text">Some example text. Some example text.</p>
+                    <div id="job" class="collapse">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut hendrerit, augue vitae ultricies scelerisque, ante magna elementum
+                        neque, et feugiat mauris eros malesuada mi. Mauris sagittis orci at mi malesuada, eget finibus sapien
+                        rhoncus. Donec tristique scelerisque neque eu porta. Integer vitae faucibus nibh. Integer pretium
+                        neque sed vehicula egestas. Sed convallis ligula eu arcu sollicitudin, id eleifend magna lobortis.
+                        Morbi nec vestibulum elit, eget aliquam sem. Vivamus rutrum, nulla id tempor rhoncus, enim turpis
+                        fringilla tellus, et malesuada magna lorem sodales turpis. Pellentesque tristique ac lacus vitae
+                        fermentum. Cras rhoncus ac risus at aliquam. Vestibulum commodo nibh et ante.
+                    </div>
+                </div>
+        </a>
     </div>
 
 
@@ -233,22 +255,22 @@
     </div>
 
     <div class="container">
-    <div class="card shadover">
-        <div class="card-body">
-          <h4 class="card-title">Titre du diplome</h4>
-          <p class="card-text">Some example text. Some example text.</p>
-          <a href="#" class="card-link">Card link</a>
-          <a href="#" class="card-link">Another link</a>
+        <div class="card shadover">
+            <div class="card-body">
+                <h4 class="card-title">Titre du diplome</h4>
+                <p class="card-text">Some example text. Some example text.</p>
+                <a href="#" class="card-link">Card link</a>
+                <a href="#" class="card-link">Another link</a>
+            </div>
         </div>
-      </div>
-      <div class="card shadover">
-        <div class="card-body">
-          <h4 class="card-title">Card title</h4>
-          <p class="card-text">Some example text. Some example text.</p>
-          <a href="#" class="card-link">Card link</a>
-          <a href="#" class="card-link">Another link</a>
+        <div class="card shadover">
+            <div class="card-body">
+                <h4 class="card-title">Card title</h4>
+                <p class="card-text">Some example text. Some example text.</p>
+                <a href="#" class="card-link">Card link</a>
+                <a href="#" class="card-link">Another link</a>
+            </div>
         </div>
-      </div>
     </div>
 
     <!-- JS HERE -->
