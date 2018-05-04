@@ -66,6 +66,19 @@ a:hover {
   cursor: pointer;
 }
 
+.logo {
+  width: 10vh;
+}
+
+.skill {
+  font-size: 8vh;
+  color: grey;
+}
+
+.skill:hover {
+  color:brown;
+}
+
 .profile-pic {
     border-radius: 50%;
     width: 35vh;
