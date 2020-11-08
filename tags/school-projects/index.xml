@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>School projects on It&#39;s Anas</title>
+    <link>https://itsanas.github.io/tags/school-projects/</link>
+    <description>Recent content in School projects on It&#39;s Anas</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 08 Nov 2020 13:29:47 +0100</lastBuildDate><atom:link href="https://itsanas.github.io/tags/school-projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chip Tales</title>
+      <link>https://itsanas.github.io/projects/chip-tales/</link>
+      <pubDate>Sun, 08 Nov 2020 13:29:47 +0100</pubDate>
+      
+      <guid>https://itsanas.github.io/projects/chip-tales/</guid>
+      <description>Chip Tales Remastered version   </description>
+    </item>
+    
+  </channel>
+</rss>
